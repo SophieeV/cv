@@ -1,0 +1,46 @@
+body
+{
+  border: solid;
+  border-color : green;
+}
+
+
+header
+{
+border: solid;
+border-color : blue;
+}
+
+.navheader
+{
+  border: solid;
+  border-color : red;
+}
+
+element
+{
+  border: solid;
+  border-color : black;
+}
+
+article
+{
+  border : solid;
+  border-color: orange;
+}
+
+footer
+{
+  border: solid;
+  border-color : yellow;
+}
+.navfooter
+{
+  border: solid;
+  border-color : purple;
+}
+.accueil
+{
+  border: solid;
+  border-color : red;
+}
