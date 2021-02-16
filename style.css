@@ -6,7 +6,6 @@ body
 border: solid;
 border-color : green;
 }
-
 header
 {
   background-color: #ffffff;
@@ -21,10 +20,10 @@ img
 {
 float: left;
 margin-right: 5px;
+margin-top: -15px;
 width: 130px;
 height: 130px;
 }
-
 .ulheader
 {
   list-style-type: none;
@@ -39,7 +38,25 @@ height: 130px;
   margin-top: 30px;
 }
 
+.formation
+{
+  font-family: sans-serif;
+  font-size: medium;
+  font-style: normal;
+  color: black;
+  text-decoration: none;
+}
 
+a:hover
+{
+  text-decoration: underline;
+  color: blue;
+}
+
+a: visited:
+{
+  text-decoration: none;
+}
 
 element
 {
@@ -58,9 +75,63 @@ article
   font-size: medium;
   font-style: normal;
   color: black;
+  width: 30%;
+text-align: left;
+margin-left: 2%;
+margin-right: 2%;
 border : solid;
 border-color: orange;
 }
+
+.index2
+{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.pro
+{
+  width: 100%;
+}
+ul
+{
+list-style-type: none;
+}
+.description
+{
+  list-style-type: circle;
+}
+
+.xppro
+{
+  list-style-type: square;
+}
+
+h1
+{
+text-align: center;
+}
+
+.accueil
+{
+
+}
+
+
+
+.contact
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.h1contact
+{
+
+}
+
 
 footer
 {
