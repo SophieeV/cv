@@ -31,7 +31,7 @@ header
   color: black;
   font-family: 'caviar_dreamsregular', sans-serif;
 }
-h1
+h1 /*tous les titres d'article*/
 {
 text-align: center;
 font-size: 27px;
@@ -40,6 +40,7 @@ text-decoration: double underline;
 font-style : italic;
 font-weight: bolder
 }
+
 ul
 {
 list-style-type: none;
@@ -60,19 +61,19 @@ nav
   text-align : center;
   margin-right: 35px;
 }
-.formation
+.formation /*pour avoir les liens en article comme du texte*/
 {
   font-family: 'caviar_dreamsregular'sans-serif;
   font-style: 18px;
   color: black;
   text-decoration: none;
 }
-a:hover
+a:hover /*pour faire ressortir les liens en article quand la souris passe dessus*/
 {
   text-decoration: underline;
   color: none;
 }
-a: visited:
+a: visited: /*pour qu'une fois visités les liens ne ressortent pas*/
 {
   text-decoration: none;
 }
@@ -97,6 +98,7 @@ font-family: 'caviar_dreamsregular', sans-serif;
 font-size: 19px;
 line-height: 2em;
 }
+
 .accueil
 {
 display: flex;
@@ -126,7 +128,6 @@ margin-left: 500px;
   text-decoration: underline;
   font-size: 20px;
 }
-
 .soustitre
 {
   text-decoration: underline;
@@ -136,8 +137,6 @@ margin-left: 500px;
 {
   font-style: italic;
 }
-
-
 img
 {
 float: left;
@@ -146,26 +145,7 @@ margin-top: -15px;
 width: 100px;
 height: 100px;
 }
-.reseau
-{
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-}
-.costumes
-{
-  width : 90%;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 5px;
-  margin-top: 10px;
-  margin-left: 5%;
-}
-.reseauxsociaux
+.reseauxsociaux, .accueil
 {
   display: flex;
   flex-direction: row;
